@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px){
+    .super-string-image {
+        display: none;
+    }
+
+    .m-theory-title {
+        font-size: 3em;
+        margin-top: -500px;
+        color: #d4adfc;
+    }
+
+    .m-theory-description {
+        font-size: 20px;
+        max-width: 300px;
+        position: relative;
+        margin-top: 350px;
+    }
+
+    .first-link-m-theory {
+        font-size: 20px;
+        max-width: 300px;
+    }
+
+    .second-link-m-theory {
+        font-size: 20px;
+        max-width: 300px;
+    }
+}

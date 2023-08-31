@@ -1,0 +1,204 @@
+.skills-section {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.skills-title {
+    text-align: center;
+   
+}
+
+.skills-list {
+    list-style-type: none;
+    text-align: center;
+    margin-left: -35px;
+}
+
+.item-period-skills {
+    font-size: 10px;
+    font-weight: 50;
+}
+
+.powerpoint-logo-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.powerpoint-description {
+    
+    margin-left: 30px;
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    display: none;
+}
+
+.navigation-bar-item-skills {
+    margin-left: 35px;
+    margin-right: 30px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    transition: font-weight 0.1s font-size 0.1s;
+    font-size: 13px;
+    width: 60px;
+}
+
+.navigation-bar-item-skills:hover {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.html-image {
+    width: 20%;
+    box-shadow: none;
+}
+
+.css-image {
+    width: 20%;
+    margin-left: 20px;
+    box-shadow: none;
+}
+
+.cplusplus-image {
+    width: 19%;
+    margin-left: 20px;
+    box-shadow: none;
+}
+
+@media screen and (min-width: 768px) {
+    .navigation-bar-item-skills {
+      
+        margin-left: 20px;
+    }
+
+    .item-period-skills {
+        font-size: 13px;
+    }
+
+    .html-image {
+        width: 18%;
+    }
+
+    .css-image {
+        width: 18%;
+    }
+
+    .cplusplus-image {
+        width: 17%;
+    }
+    /* .powerpoint-description {
+        font-size: 12.5px;
+    } */
+}
+
+@media screen and (min-width: 1280px) {
+    .navigation-bar-item-skills {
+        margin-left: 50px;
+    }
+
+    .skills-section {
+        text-align: left;
+    }
+
+    .skills-title {
+        text-align: right;
+        margin-right: 80px;
+    }
+    
+    .skills-list {
+        text-align: right;
+        margin-right: 80px;
+    
+    }
+
+    .item-period-skills {
+        font-size: 16px;
+    }
+
+    .html-image {
+        width: 16%;
+        margin-left: 60px;
+        float: left;
+        margin-top: -200px;
+    }
+
+    .css-image {
+        width: 16%;
+        float: left;
+        margin-top: -200px;
+    }
+
+    .cplusplus-image {
+        width: 14%;
+        float: left;
+        margin-top: -200px;
+    }
+
+    /* .powerpoint-description {
+        text-align: left;
+        margin-left: 390px;
+        margin-top: -50px;
+    } */
+}
+
+@media screen and (min-width: 1920px){
+    .navigation-bar-item-skills {
+        font-size: 20px;
+        margin-left: 170px;
+    }
+
+    .navigation-bar-item-skills:hover {
+        font-size: 22px;
+    }
+
+    .powerpoint-logo-image {
+        width: 40%;
+        margin-left: 90px;
+        margin-top: -350px;
+    }
+
+    .skills-section {
+        margin-top: 600px;
+    }
+
+    .skills-title {
+        font-size: 50px;
+        margin-right: 180px;
+    }
+
+    .skills-list {
+        margin-right: 180px;
+    }
+
+    .item-period-skills {
+        font-size: 20px;
+    }
+
+    /* .powerpoint-description {
+        font-size: 15px;
+        margin-top: 2px;
+    } */
+
+    .html-image {
+        width: 10%;
+        margin-left: 160px;
+        float: left;
+        margin-top: -200px;
+    }
+
+    .css-image {
+        width: 10%;
+        display: inline-block;
+        margin-top: -200px;
+        margin-left: 440px;
+    }
+
+    .cplusplus-image {
+        width: 9%;
+        float: left;
+        margin-top: -200px;
+        margin-left: 740px;
+    }
+}

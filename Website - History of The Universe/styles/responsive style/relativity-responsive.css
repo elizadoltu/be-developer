@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+    
+    .theory-of-relativity-picture {
+        width: 100%;
+        display: none;
+    }
+
+    .theory-of-relativity-title {
+        font-size: 2.5em;
+        margin-top: -500px;
+    }
+
+    .theory-of-relativity-description {
+        font-size: 20px;
+        max-width: 300px;
+        position: relative;
+        margin-top: 250px;
+    }
+
+    .first-link-relativity {
+        font-size: 20px;
+        max-width: 300px;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .second-link-relativity {
+        font-size: 20px;
+        max-width: 300px;
+        position: relative;
+    }
+}

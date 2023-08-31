@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px){
+    .multiverse-pictures {
+        display: none;
+    }
+
+    .multiverse-title {
+        font-size: 2.5em;
+        margin-top: -300px;
+    }
+
+    .multiverse-description {
+        font-size: 20px;
+        max-width: 300px;
+        position: relative;
+        margin-top: 300px;
+    }
+
+    .first-link-multiverse {
+        font-size: 20px;
+        max-width: 300px;
+        margin-top: 30px;
+    }
+
+    .second-link-multiverse {
+        display: none;
+        font-size: 20px;
+        max-width: 300px;
+    }
+}

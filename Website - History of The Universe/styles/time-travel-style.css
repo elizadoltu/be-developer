@@ -1,0 +1,125 @@
+.time-traveling {
+    display: grid;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+    margin-top: 200px;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(10%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.time-traveling-title {
+    text-align: center;
+    position: absolute;
+    font-size: 4em;
+    color: #d4adfc;
+}
+
+.time-traveling-title::before {
+    content: "";
+    width: 0;
+    top: 55%;
+    height: 8px;
+    position: absolute;
+    transform: translateY(-50%);
+    background-color: #974ec3;
+    transition: width 0.5s ease;
+}
+
+.time-traveling-title:hover::before {
+    width: 100%;
+}
+
+.time-traveling-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.time-traveling-description {
+    color: #d4adfc;
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.first-link-time-travel {
+    font-size: 1.5em;
+    position: relative;
+}
+
+.second-link-time-travel {
+    font-size: 1.5em;
+    position: relative;
+}
+
+.first-link-time-travel::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 4px;
+    background-color: #974ec3;
+    transition: width 0.5s ease;
+}
+
+.second-link-time-travel::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 4px;
+    background-color: #974ec3;
+    transition: width 0.5s ease;
+}
+
+.first-link-time-travel:hover::before {
+    width: 100%;
+}
+
+.second-link-time-travel:hover::before {
+    width: 100%;
+}
+
+.footer-time-travel {
+    display: grid;
+    place-items: center;
+}
+
+.list-travel-title {
+    color: #d4adfc;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.list-travel {
+    list-style-type: none;
+    color: #d4adfc;
+    font-size: 1.5em;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: -5px;
+}
+
+.list-travel-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+.list-travel-item:hover {
+    transform: scale(1.2);
+}

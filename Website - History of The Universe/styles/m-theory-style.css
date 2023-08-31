@@ -1,0 +1,93 @@
+.m-theory {
+    display: grid;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+    margin-top: 300px;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(10%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.m-theory-title {
+    position: absolute;
+    font-size: 4em;
+    color: rgba(29, 38, 125, 1);
+}
+
+.m-theory-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 55%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 8px;
+    background-color: #8CABFF;
+    transition: width 0.5s ease;
+}
+
+.m-theory-title:hover::before {
+    width: 100%;
+}
+
+.super-string-image {
+    margin-top: 200px;
+}
+
+.m-theory-description {
+    color: #d4adfc;
+    font-size: 1.5em;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.first-link-m-theory {
+    font-size: 1.5em;
+    position: relative;
+    margin-top: 30px;
+}
+
+.second-link-m-theory {
+    font-size: 1.5em;
+    position: relative;
+}
+
+.first-link-m-theory::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 4px;
+    background-color: #974ec3;
+    transition: width 0.5s ease;
+}
+
+.first-link-m-theory:hover::before {
+    width: 100%;
+}
+
+.second-link-m-theory::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 4px;
+    background-color: #974ec3;
+    transition: width 0.5s ease;
+}
+
+.second-link-m-theory:hover::before {
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px){
+    .astronaut-picture-1 {
+        display: none;
+    }
+
+    .introduction-title {
+        font-size: 2.5em;
+    }
+}

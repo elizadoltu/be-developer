@@ -1,0 +1,42 @@
+
+@media screen and (max-width: 768px) {
+    .more-title {
+        font-size: 2.5em;
+        margin-top: -200px;
+    }
+
+    .lists-section {
+        position: relative;
+        display: block;
+        /* Change to block layout */
+        margin-top: 300px;
+    }
+    
+    .title-list {
+        font-size: 20px;
+        margin-top: 15px;
+        /* Adjusted margin for better spacing */
+    }
+    
+    .lists-section li {
+        font-size: 15px;
+        margin-top: 5px;
+        /* Adjusted margin for better spacing */
+    }
+
+    .physicist-list {
+        align-items: center;
+        margin-right: 0;
+        margin-right: 50px;
+    }
+
+    .youtube-list {
+        margin-right: 50px;
+    }
+
+    .institutions-list {
+        margin-left: 0;
+        margin-right: 50px;
+    }
+}
+

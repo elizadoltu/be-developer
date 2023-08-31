@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Website container -->
+  <main class="main-content-website">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+        name="description"
+        content="Official Website of Eliza - Teodora Doltu"
+      />
+      <meta
+        name="keyords"
+        content="HTML, CSS, COMPUTER SCIENCE, STUDENT, PERSONAL WEBSITE, DEVELOPER, PROGRAMMER"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        href="images/icons/eliza-website-favicon-black.png"
+      />
+      <link rel="stylesheet" href="styles/header-style.css" />
+      <link rel="stylesheet" href="styles/normalize.css" />
+      <link rel="stylesheet" href="styles/main-style.css" />
+      <link rel="stylesheet" href="styles/education-style.css" />
+      <link rel="stylesheet" href="styles/experience-style.css" />
+      <link rel="stylesheet" href="styles/footer-style.css" />
+      <link rel="stylesheet" href="styles/body-style.css" />
+      <link rel="stylesheet" href="styles/licences-style.css" />
+      <link rel="stylesheet" href="styles/projects-style.css" />
+      <link rel="stylesheet" href="styles/skills-style.css" />
+      <link rel="stylesheet" href="styles/social-media-style.css" />
+      <link rel="stylesheet" href="styles/summary-style.css" />
+      <link rel="stylesheet" href="styles/leave-a-message-area.css" />
+      <link rel="stylesheet" href="styles/introduction-section.css" />
+      <link rel="stylesheet" href="styles/top-button.css" />
+      <link rel="stylesheet" href="styles/menu-toggle.css" />
+      <link rel="stylesheet" href="styles/toggle-dark-light.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="styles/animation-styles.css" />
+      <title>Eliza - Teodora Doltu</title>
+    </head>
+    <!-- Header Container -->
+
+    <header>
+      <!-- Navigation Bar -->
+      <nav class="navigation-bar">
+        <ul class="navigation-list">
+          <li class="navigation-bar-item-summary">
+            <a
+              href="#summary-section-id"
+              onclick="scrollToSection('summary-section-id')"
+              >About me</a
+            >
+          </li>
+          <li class="navigation-bar-item-experience">
+            <a
+              href="#experience-section-id"
+              onclick="scrollToSection('experience-section-id')"
+              >Experience</a
+            >
+          </li>
+          <li class="navigation-bar-item-education">
+            <a
+              href="#education-section-id"
+              onclick="scrollToSection('education-section-id')"
+              >Education</a
+            >
+          </li>
+          <li class="navigation-bar-item-projects">
+            <a
+              href="#projects-section-id"
+              onclick="scrollToSection('projects-section-id')"
+              >Projects</a
+            >
+          </li>
+          <li class="navigation-bar-item-certificates">
+            <a
+              href="#certificates-section-id"
+              onclick="scrollToSection('certificates-section-id')"
+              >Certificates</a
+            >
+          </li>
+          <li class="navigation-bar-item-skills">
+            <a
+              href="#skills-section-id"
+              onclick="scrollToSection('skills-section-id')"
+              >Skills</a
+            >
+          </li>
+          <li class="navigation-bar-item-multiverse">
+            <a
+              href="/Website - History of The Universe/index.html"
+              target="_blank"
+              >Multiverse</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <nav class="nav-menu">
+        <ul>
+          <li>
+            <a
+              href="#summary-section-id"
+              onclick="scrollToSection('summary-section-id')"
+              >About me</a
+            >
+          </li>
+          <li>
+            <a
+              href="#experience-section-id"
+              onclick="scrollToSection('experience-section-id')"
+              >Experience</a
+            >
+          </li>
+          <li>
+            <a
+              href="#education-section-id"
+              onclick="scrollToSection('education-section-id')"
+              >Education</a
+            >
+          </li>
+          <li>
+            <a
+              href="#projects-section-id"
+              onclick="scrollToSection('projects-section-id')"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="#certificates-section-id"
+              onclick="scrollToSection('certificates-section-id')"
+              >Certificates</a
+            >
+          </li>
+          <li>
+            <a
+              href="#skills-section-id"
+              onclick="scrollToSection('skills-section-id')"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <section class="theme-toggle">
+              <input type="checkbox" id="theme-switch" class="theme-switch" />
+              <label for="theme-switch">
+                <div class="toggle-box">
+                  <img
+                    src="images/toggle-mmon-icon.png"
+                    alt="Light Theme Icon"
+                    class="theme-icon light-icon"
+                  />
+                  <img
+                    src="images/toggle-sun-icon.png"
+                    alt="Dark Theme Icon"
+                    class="theme-icon dark-icon"
+                  />
+                </div>
+              </label>
+            </section>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main Body -->
+    <body>
+      <!-- Introduction Section -->
+      <section class="introduction-section">
+        <h1 class="introduction-title">&lt;/Student. Developer/&gt;</h1>
+      </section>
+      <!-- About me Section -->
+      <section class="summary-section" id="summary-section-id">
+        <h1 class="summary-title">About me</h1>
+        <aside class="aside-picture">
+          <figure>
+            <img
+              src="images/eliza.jpg"
+              alt="Profile picture"
+              class="profile-picture"
+            />
+
+            <figcaption class="profile-picture-description">
+              &lt;/Photo of Eliza-Teodora Doltu./&gt;
+            </figcaption>
+          </figure>
+        </aside>
+        <p class="about-me-description">
+          Hello everyone! My name is Eliza - Teodora Doltu and I am currently a
+          student at Faculty of Computer Science of "Alexandru Ioan Cuza"
+          University, Iasi. I have been a member of the Robotics team in
+          highschool for 2 years, STIM DC, RO135 and we have won the Judge
+          Award, second place. I work with Lego Mindstorms and Micro::Bit. I
+          also have skills in Python, C++, HTML, CSS and JavaScript. I am an
+          ambitious and determined person, I always work hard towards achieving
+          my goals. I am a good listener, a fast learner and one of my strongest
+          suits is working in teams. I am passionate about skiing, football and
+          hiking, as I am a nature enthusiast. I also have an interest for
+          investing in cryptocurrency and stocks.
+        </p>
+      </section>
+      <!-- Experience Section -->
+      <section class="experience-section" id="experience-section-id">
+        <h1 class="experience-title">Experience</h1>
+        <ul class="experience-list">
+          <li class="item-list">
+            <h2 class="item-title">Student</h2>
+            <h2 class="item-institution">
+              "Alexandru Ioan-Cuza University" of Iasi
+            </h2>
+            <h2 class="item-period">Sep 2022 - Present</h2>
+          </li>
+          <li class="item-list">
+            <h2 class="item-title">Technical Team Member</h2>
+            <h2 class="item-institution">STIM DC</h2>
+            <h2 class="item-period">Sep 2019 - May 2021</h2>
+          </li>
+          <li class="item-list">
+            <h2 class="item-title">Volunteer</h2>
+            <h2 class="item-institution">Parohia "Buna Vestire"</h2>
+            <h2 class="item-period">Jul 2019</h2>
+          </li>
+          <li class="item-list">
+            <h2 class="item-title">Volunteer</h2>
+            <h2 class="item-institution">
+              "Sf.Voievod Stefan Cel Mare" Asociation
+            </h2>
+            <h2 class="item-period">Aug 2019</h2>
+          </li>
+        </ul>
+
+        <img
+          src="images/UAIC.jpg"
+          alt="Picture of Alexandru Ioan-Cuza"
+          class="uaic-image"
+        />
+        <h2 class="description-photo-uaic">
+          &lt;/Photo of "Alexandru Ioan-Cuza" University/&gt;
+        </h2>
+      </section>
+      <!-- Education Section -->
+      <section class="education-section" id="education-section-id">
+        <h1 class="education-title">Education</h1>
+        <ul class="education-list">
+          <li class="item-list">
+            <h2 class="item-title">
+              "Alexandru Ioan - Cuza" University of Iasi
+            </h2>
+            <h2 class="item-institution">Faculty of Computer Science</h2>
+            <h2 class="item-period">Sep 2022 - Sep 2025</h2>
+          </li>
+          <li class="item-list">
+            <h2 class="item-title">"Dimitrie Cantemir" College, Onesti</h2>
+            <h2 class="item-institution">Computer Science</h2>
+            <h2 class="item-period">Sep 2018 - Jun 2022</h2>
+          </li>
+        </ul>
+        <img
+          src="images/dimitrie-cantemir.jpg"
+          class="dimitrie-cantemir-image"
+        />
+        <h2 class="description-dimitrie-cantemir">
+          &lt;/Photo of "Dimitrie Cantemir" College, Onesti/&gt;
+        </h2>
+      </section>
+      <!-- Projects Section -->
+      <section class="projects-section" id="projects-section-id">
+        <h1 class="projects-title" id="projects-title">Projects</h1>
+        <ul class="projects-list">
+          <li class="item-list">
+            <h2 class="item-title">My Personal Website</h2>
+            <h2 class="item-period">
+              <mark class="skills-subtitle">Skills: </mark>HTML - Cascading
+              Style Sheets (CSS) - JavaScript
+            </h2>
+            <a
+              href="https://elizateodoradoltu.com"
+              target="_blank"
+              class="projects-links"
+              >https://elizateodoradoltu.com</a
+            >
+          </li>
+          <li class="item-list">
+            <h2 class="item-title">Segmente</h2>
+            <h2 class="item-period">
+              <mark class="skills-subtitle">Skills: </mark>C++
+            </h2>
+            <a
+              href="https://github.com/elizadoltu/Segmente"
+              target="_blank"
+              class="projects-links"
+              >https://github.com/elizadoltu/Segmente</a
+            >
+          </li>
+          <li class="item-list">
+            <h2 class="item-title">
+              Tutorials for Lego Mindstorms - Robot Inventor
+            </h2>
+            <h2 class="item-period">
+              <mark class="skills-subtitle">Skills: </mark>Lego Mindstorms -
+              Python
+            </h2>
+            <a
+              href="https://github.com/elizadoltu/Lego-Mindstorms-Tutorials"
+              target="_blank"
+              class="projects-links"
+              >https://github.com/elizadoltu/Lego-Mindstorms-Tutorials</a
+            >
+          </li>
+          <li class="item-list">
+            <h2 class="item-title">
+              The History of The Universe - PPT Presentation
+            </h2>
+            <h2 class="item-period">
+              <mark class="skills-subtitle"> Skills: </mark> PowerPoint skills
+            </h2>
+            <a
+              href="presentations/final-presentation.pptx"
+              download="final-presentation.pptx"
+              class="projects-links"
+              >The History of The Universe</a
+            >
+          </li>
+        </ul>
+        <img
+          src="images/lego-mindstorms.jpg"
+          alt="Photo of lego-mindstorms. Link: https://www.google.com/url?sa=i&url=https%3A%2F%2Fthegadgetflow.com%2Fportfolio%2Flego-mindstorms-robot-inventor%2F&psig=AOvVaw3XMhcnYdyJqcL8LLxAK7WO&ust=1691658731269000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKiTioCez4ADFQAAAAAdAAAAABAo. 
+          For copyright purpose."
+          class="lego-mindstorms-image"
+        />
+        <h2 class="lego-mindstorms-description">
+          &lt;/Photo of Lego Mindstorms - Robot Inventor./&gt;
+        </h2>
+      </section>
+      <!-- Certificates Section -->
+      <section class="certificates-section" id="certificates-section-id">
+        <h1 class="certificates-title" id="certificates-title">Certificates</h1>
+        <ul class="certificates-list">
+          <li class="item-list">
+            <h2 class="item-title">Cambridge English - B2</h2>
+            <h2 class="item-period">Cambridge University Press & Assessment</h2>
+            <h2 class="item-period">Issued: Apr 2022</h2>
+            <h2 class="item-period">Credential ID:</h2>
+            <h2 class="item-period">501/1423/2 - Accreditation Number</h2>
+            <h2 class="item-period">B7600686 - Verification Number</h2>
+          </li>
+        </ul>
+        <img
+          src="images/university-of-cambridge-logo.png"
+          alt="Photo of University of Cambridge.
+          Link: https://www.google.com/url?sa=i&url=https%3A%2F%2Fbrandslogos.com%2Fu%2Funiversity-of-cambridge-logo-1%2F&psig=AOvVaw3jUTvRQobOCaGQYe88CaPf&ust=1691666785777000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOC0xoC8z4ADFQAAAAAdAAAAABAR. 
+          For copyright purpose."
+          class="university-of-cambridge-photo"
+        />
+        <h2 class="description-image-cambridge">
+          &lt;/Photo of University of Cambridge./&gt;
+        </h2>
+      </section>
+      <!-- Skills Section -->
+      <section class="skills-section" id="skills-section-id">
+        <h1 class="skills-title">Skills</h1>
+        <ul class="skills-list">
+          <li class="item-period-skills">HTML</li>
+          <li class="item-period-skills">CSS</li>
+          <li class="item-period-skills">Python</li>
+          <li class="item-period-skills">C++</li>
+          <li class="item-period-skills">JavaScript</li>
+          <li class="item-period-skills">Microsoft PowerPoint</li>
+          <li class="item-period-skills">Object-Oriented Programming(OOP)</li>
+          <li class="item-period-skills">English</li>
+          <li class="item-period-skills">Communication</li>
+          <li class="item-period-skills">Team Work</li>
+          <li class="item-period-skills">Leadership</li>
+        </ul>
+        <img src="images/html-image.png" alt="html-image" class="html-image" />
+        <img src="images/css-image.png" alt="css-image" class="css-image" />
+        <img
+          src="images/cplusplus-image.png"
+          alt="cplusplus-image"
+          class="cplusplus-image"
+        />
+      </section>
+
+      <!-- Go To the Top Button -->
+      <button
+        id="top-button"
+        onclick="topFunction()"
+        class="top-button"
+        title="Go to top"
+      >
+        &and;
+      </button>
+      <!-- Scripts -->
+      <script src="Scripts/buttons-scripts.js"></script>
+      <script src="Scripts/scroll-functions.js"></script>
+    </body>
+
+    <!-- Footer of the Website -->
+    <footer class="footer">
+      <section class="footer-content">
+        <p class="footer-text">
+          &copy; 2023 Eliza-Teodora Doltu. All rights reserved.
+        </p>
+        <!-- Social Medias accounts-->
+        <ul class="social-media-list left-list">
+          <li>
+            <a href="https://facebook.com/dteodora.eliza" target="_blank"
+              ><img
+                src="images/Facebook-logo.png"
+                alt="Photo of Facebook Logo."
+                class="facebook-logo"
+              />Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://instagram.com/elizateodoradoltu" target="_blank"
+              ><img
+                src="images/instagram-logo.png"
+                alt="Photo of Instagram Logo"
+                class="instagram-logo"
+              />Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              href="images/snapcode.png"
+              download="snapcode.png"
+              target="_blank"
+              ><img
+                src="images/snapchat-logo.png"
+                alt="Photo of Snapchat Logo"
+                class="snapchat-logo"
+              />Snapchat</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/eliza-teodora-doltu-56336b24a/"
+              target="_blank"
+              ><img
+                src="images/LinkedIn-logo.png"
+                alt="Photo of LinkedIn Logo"
+                class="LinkedIn-logo"
+              />LinkedIn</a
+            >
+          </li>
+          <!-- Add more links here for the left list -->
+        </ul>
+        <ul class="social-media-list right-list">
+          <li>
+            <a href="mailto:elizadoltuofficial@gmail.com"
+              ><img
+                src="images/email-logo.png"
+                alt="Photo of Email Logo"
+                class="email-logo"
+              />Personal Email</a
+            >
+          </li>
+          <li>
+            <a href="mailto:everythingwithunknowninfo@gmail.com"
+              ><img
+                src="images/email-logo.png"
+                alt="Photo of Email Logo"
+                class="email-logo"
+              />Business Email</a
+            >
+          </li>
+          <li>
+            <a href="tel:+40792179657"
+              ><img
+                src="images/whatsapp-logo.png"
+                alt="Photo of WhatsApp Logo"
+                class="whatsapp-logo"
+              />Business Telephone Number</a
+            >
+          </li>
+          <li>
+            <a href="https://discordapp.com/users/694414601261154315"
+              ><img
+                src="images/discord-icon.png"
+                alt="Photo of Dsicord Logo"
+                class="discord-logo"
+              />Discord</a
+            >
+          </li>
+          <!-- Add more links here for the right list -->
+        </ul>
+        <section class="leave-a-message">
+          <h2 class="leave-a-message-text">For questions leave a message</h2>
+          <form
+            id="message-form"
+            action="/send-email"
+            method="POST"
+            class="message-form-class"
+          >
+            <label for="email" class="email-text">Your Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="3" required></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+      </section>
+      <script src="Scripts/send-message-script.js"></script>
+      <script src="Scripts/scroll-animations.js"></script>
+      <script src="Scripts/menu-toggle-script.js"></script>
+      <script src="Scripts/toggle-dark-light-theme.js"></script>
+    </footer>
+  </main>
+</html>

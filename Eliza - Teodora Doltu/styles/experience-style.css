@@ -1,0 +1,153 @@
+.experience-section {
+    text-align: center;
+    margin-top: 400px; 
+}
+
+.experience-title {
+    text-align: center;
+    
+}
+
+.experience-list {
+    list-style-type: none;
+    text-align: center;
+    margin-left: -40px;
+}
+
+.item-list {
+    margin-top: 30px;
+}
+
+.item-title {
+    font-size: 16px;
+}
+
+.item-institution {
+    font-size: 12px;
+    margin-top: -9px;
+}
+
+.item-period {
+    font-size: 9px;
+    font-weight: 300;
+    margin-top: -3px;
+}
+
+.uaic-image {
+    width: 101%;
+    margin-top: 10px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.description-photo-uaic {
+    margin-top: 5px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 10px;
+   
+    opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .item-title {
+        font-size: 18px;
+    }
+
+    .item-period {
+        font-size: 12px;
+    }
+
+    .item-institution {
+        font-size: 15px;
+    }
+
+    .uaic-image {
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    .description-photo-uaic {
+        font-size: 12px;
+        margin-left: 25px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .item-title {
+        font-size: 20px;
+    }
+
+    .item-period {
+        font-size: 14px;
+    }
+
+    .item-period {
+        font-size: 17px;
+    }
+
+    .experience-section {
+        text-align: left;
+    }
+
+    .experience-list {
+        text-align: right;
+        margin-right: 120px;
+    }
+
+    .experience-title {
+        text-align: right;
+        margin-right: 120px;
+    }
+
+    .uaic-image {
+        width: 50%;
+        margin-top: -490px;
+        margin-left: 60px;
+    }
+
+    .description-photo-uaic {
+        text-align: left;
+        margin-left: 200px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .uaic-image {
+        width: 40%;
+        margin-left: 150px;
+    }
+
+    .experience-title {
+        font-size: 50px;
+        margin-right: 170px;
+    }
+
+    .experience-section {
+        margin-top: 600px;
+    }
+
+    .experience-list {
+        margin-right: 170px;
+    }
+
+    .item-title  {
+        font-size: 28px;
+    }
+
+    .item-institution {
+        font-size: 20px;
+    }
+
+    .item-period {
+        font-size: 18px;
+    }
+
+    .description-photo-uaic {
+        font-size: 15px;
+        margin-left: 330px;
+    }
+}
+
+
+

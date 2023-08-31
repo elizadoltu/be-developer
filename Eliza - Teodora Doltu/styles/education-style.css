@@ -1,0 +1,93 @@
+.education-section {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.education-title {
+    text-align: center;
+}
+
+.education-list {
+    list-style-type: none;
+    text-align: center;
+    margin-left: -40px;
+}
+
+.dimitrie-cantemir-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.description-dimitrie-cantemir {
+    font-size: 10px;
+    text-align: center;
+    
+    margin-top: -2px;
+}
+
+@media screen and (min-width: 738px){
+    .dimitrie-cantemir-image {
+        width: 80%;
+    }
+
+    .description-dimitrie-cantemir {
+        font-size: 12.5px;
+        margin-left: 25px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .education-section {
+        text-align: right;
+    }
+
+    .education-title {
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .education-list {
+        text-align: left;
+        margin-top: 50px;
+    }
+
+    .dimitrie-cantemir-image {
+        width: 55%;
+        margin-top: -290px;
+        margin-right: 20px;
+    }
+
+    .description-dimitrie-cantemir {
+        text-align: right;
+        margin-right: 190px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    
+    .dimitrie-cantemir-image {
+        width: 45%;
+        margin-top: -350px;
+        margin-right: 80px;
+    }
+
+    .education-list {
+        margin-left: 50px;
+    }
+
+    .education-section {
+        margin-top: 600px;
+    }
+
+    .education-title {
+        margin-left: 95px;
+        font-size: 50px;
+    }
+
+    .description-dimitrie-cantemir {
+        font-size: 15px;
+        margin-right: 280px;
+    }
+
+}

@@ -1,0 +1,25 @@
+.main-content-website {
+    font-family: 'REM', sans-serif;
+    color: #102C57;
+    background-color: #f8f0e5;
+    text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.2);
+}
+
+
+a {
+    text-decoration: none;
+    color: #102C57;
+}
+
+a:visited {
+    color: #102C57;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.2);
+}
+

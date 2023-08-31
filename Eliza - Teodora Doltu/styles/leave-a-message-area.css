@@ -1,0 +1,27 @@
+.leave-a-message {
+    position: absolute;
+    bottom: 18px;
+    right: 5px;
+    background-color: #8f8d8d;
+    /* Add a background color if needed */
+    padding: 8px;
+    width: 200px;
+    /* Adjust the width as needed */
+    display: none;;
+}
+
+.leave-a-message-text {
+    font-size: 10px;
+}
+
+.message-form-class {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .leave-a-message {
+        display: none;
+    }
+}

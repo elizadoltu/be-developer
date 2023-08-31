@@ -1,0 +1,127 @@
+.facebook-logo {
+    display: inline-block;
+    z-index: 99;
+    width: 20px;
+    margin-bottom: -2px;
+    box-shadow: none;
+}
+
+.instagram-logo {
+    display: inline-block;
+    z-index: 99;
+    width: 15px;
+    margin-bottom: -3px;
+    margin-left: 2.5px;
+    margin-right: 2px;
+    box-shadow: none;
+}
+
+.snapchat-logo {
+    display: inline-block;
+    z-index: 99;
+    width: 12px;
+    margin-bottom: -2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    box-shadow: none;
+}
+
+.LinkedIn-logo {
+    display: inline-block;
+    z-index: 99;
+    width: 10.5px;
+    margin-bottom: -1px;
+    margin-left: 4.5px;
+    margin-right: 4px;
+    box-shadow: none;
+}
+
+.email-logo {
+    display: inline-block;
+    z-index: 99;
+    width: 10.5px;
+    margin-bottom: -1px;
+    margin-left: 4.5px;
+    margin-right: 4px;
+    box-shadow: none;
+}
+
+.whatsapp-logo {
+    display: inline-block;
+    z-index: 99;
+    width: 10.5px;
+    margin-bottom: -1px;
+    margin-left: 4.5px;
+    margin-right: 4px;
+    box-shadow: none;
+}
+
+.discord-logo {
+    display: inline-block;
+    z-index: 99;
+    width: 10.5px;
+    margin-bottom: -1px;
+    margin-left: 4.5px;
+    margin-right: 4px;
+    box-shadow: none;
+}
+
+@media screen and (min-width: 768px) {
+    .facebook-logo {
+        width: 25px;
+    }
+
+    .instagram-logo {
+        width: 18px;
+    }
+
+    .snapchat-logo {
+        width: 15px;
+    }
+
+    .LinkedIn-logo {
+        width: 15px;
+    }
+
+    .email-logo {
+        width: 15px;
+    }
+
+    .whatsapp-logo {
+        width: 15px;
+    }
+
+    .discord-logo {
+        width: 15px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .facebook-logo {
+        width: 30px;
+    }
+
+    .instagram-logo {
+        width: 22px;
+    }
+
+    .snapchat-logo {
+        width: 18px;
+    }
+
+    .LinkedIn-logo {
+        width: 18px;
+    }
+
+    .email-logo {
+        width: 18px;
+    }
+
+    .whatsapp-logo {
+        width: 19px;
+    }
+
+    .discord-logo {
+        width: 18px;
+    }
+}

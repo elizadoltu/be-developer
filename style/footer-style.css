@@ -1,0 +1,14 @@
+.footer {
+    background: #da0037;
+    padding: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.bedeveloper-logo {
+    width: 30%;
+}
+
+.footer-text {
+    color: #ededed;
+}

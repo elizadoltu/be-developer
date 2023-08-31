@@ -1,0 +1,29 @@
+.main-content-website {
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 3px 3px 5px rgba(212, 173, 252, 0.3);
+}
+
+body { 
+    
+    background: linear-gradient(90deg, rgba(12, 19, 79, 1) 0%, rgba(29, 38, 125, 1) 49%, rgba(92, 70, 156, 1) 100%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+section {
+    display: grid;
+    place-items: center;
+}   
+
+a {
+    text-decoration: none;
+    color: #d4adfc;
+}
+
+a:visited {
+    color: #d4adfc;
+}

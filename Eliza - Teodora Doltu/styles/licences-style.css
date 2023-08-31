@@ -1,0 +1,130 @@
+.certificates-section {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.certificates-title {
+    text-align: center;
+}
+
+.certificates-list {
+    list-style-type: none;
+    text-align: center;
+    margin-left: -40px;
+}
+
+.university-of-cambridge-photo {
+    
+    width: 100%;
+    margin-top: -120px;
+    box-shadow: none;
+    object-fit: cover;
+}
+
+.description-image-cambridge {
+  
+    margin-top: -140px;
+    text-align: center;
+    font-size: 10px;
+   
+}
+
+.navigation-bar-item-certificates {
+    margin-left: 35px;
+    margin-right: 30px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    transition: font-weight 0.1s font-size 0.1s;
+    font-size: 13px;
+    width: 60px;
+}
+
+.navigation-bar-item-certificates:hover {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    .navigation-bar-item-certificates {
+        margin-left: 20px;
+    }
+
+    .university-of-cambridge-photo {
+        width: 80%;
+        margin-top: -230px;
+    }
+
+    .description-image-cambridge {
+        margin-top: -230px;
+        font-size: 12.5px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .navigation-bar-item-certificates {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .certificates-section {
+        text-align: right;
+    }
+
+    .certificates-title {
+        text-align: left;
+        margin-left: 60px;
+    }
+
+    .certificates-list {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .university-of-cambridge-photo {
+        width: 60%;
+        margin-right: 20px;
+        margin-top: -480px;
+    }
+
+    .description-image-cambridge {
+        text-align: right;
+       margin-top: -300px;
+       margin-right: 230px;
+       font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .navigation-bar-item-certificates {
+        font-size: 20px;
+        margin-left: 170px;
+    }
+
+    .navigation-bar-item-certificates:hover {
+        font-size: 22px;
+    }
+
+    .certificates-title {
+        font-size: 50px;
+        margin-left: 90px;
+    }
+
+    .certificates-list {
+        margin-left: 50px;
+    }
+
+    .university-of-cambridge-photo {
+        width: 55%;
+        margin-top: -650px;
+        margin-right: 70px;
+    }
+
+    .description-image-cambridge {
+        font-size: 18px;
+        margin-right: 350px;
+        margin-top: -400px;
+    }
+}

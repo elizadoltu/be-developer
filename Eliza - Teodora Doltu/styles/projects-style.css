@@ -1,0 +1,170 @@
+.projects-section {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.projects-title {
+    text-align: center;
+}
+
+.projects-list {
+    list-style-type: none;
+    text-align: center;
+    margin-left: -40px;
+}
+
+.skills-subtitle {
+    font-weight: bold;
+    font-style: italic;
+    color: #102c57;
+    background: none;
+}
+
+.projects-links {
+    margin-top: -3px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: font-weight 0.1s font-size 0.1s;
+    font-size: 9px;
+    width: 60px;
+    color: #102c57;
+}
+
+.projects-links:hover {
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.navigation-bar-item-projects {
+    margin-left: 35px;
+    margin-right: 30px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    transition: font-weight 0.1s font-size 0.1s;
+    font-size: 13px;
+    width: 60px;
+}
+
+.navigation-bar-item-projects:hover {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.lego-mindstorms-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.lego-mindstorms-description {
+   
+   
+    margin-top: -1px;
+    text-align: center;
+    font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .navigation-bar-item-projects {
+        margin-left: 20px;
+    }
+
+    .skills-subtitle {
+        font-size: 12px;
+    }
+
+    .projects-links {
+        font-size: 12px;
+    }
+
+    .lego-mindstorms-image {
+        width: 80%;
+    }
+
+    .lego-mindstorms-description {
+        font-size: 12.5px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .navigation-bar-item-projects {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .projects-section {
+        text-align: left;
+    }
+
+    .projects-title {
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .projects-list {
+        text-align: right;
+        margin-bottom: -40px;
+        margin-right: 50px;
+    }
+
+    .lego-mindstorms-image {
+        width: 50%;
+        margin-top: -400px;
+    }
+
+    .skills-subtitle {
+        font-size: 16px;
+    }
+
+    .projects-links {
+        font-size: 14px;
+    }
+
+    .projects-links:hover {
+        font-size: 15px;
+    }
+
+    .lego-mindstorms-description {
+        text-align: left;
+        margin-left: 150px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .navigation-bar-item-projects {
+        font-size: 20px;
+        margin-left: 170px;
+    }
+
+    .navigation-bar-item-projects:hover {
+        font-size: 22px;
+    }
+
+    .lego-mindstorms-image {
+        width: 40%;
+        margin-left: 80px;
+    }
+
+    .projects-section {
+        margin-top: 600px;
+    }
+
+    .projects-title {
+        font-size: 50px;
+        margin-right: 90px;
+    }
+
+    .projects-list {
+        margin-right: 90px;
+    }
+
+    .lego-mindstorms-description {
+        font-size: 17px;
+        margin-left: 220px;
+    }
+}

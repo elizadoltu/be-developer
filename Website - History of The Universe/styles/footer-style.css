@@ -1,0 +1,18 @@
+.footer {
+    padding: 50px;
+    padding-top: 100px;
+    margin-top: 200px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(90deg, rgba(92,70,156,1) 0%, rgba(29, 38, 125, 1) 49%, rgba(12, 19, 79, 1) 100%);
+}
+
+.footer-image {
+    width: 30%;
+}
+
+.footer-text {
+    color: #d4adfc;
+    font-weight: 200;
+    font-family: 'Lexend Zetta', sans-serif;
+}

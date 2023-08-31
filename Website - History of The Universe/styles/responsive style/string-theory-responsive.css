@@ -1,0 +1,32 @@
+@media screen and (max-width : 768px) {
+    .string-theory-pictures {
+        display: none;
+    }
+
+    .string-theory-title {
+        font-size: 2.5em;
+        margin-top: -250px;
+    }
+
+    .string-theory-description {
+        max-width: 300px;
+        font-size: 20px;
+        position: relative;
+        margin-top: 600px;
+    }
+
+    .first-link-string-theory {
+        font-size: 20px;
+        max-width: 300px;
+    }
+
+    .second-link-string-theory {
+        font-size: 20px;
+        max-width: 300px;
+    }
+
+    .third-link-string-theory {
+        font-size: 20px;
+        max-width: 300px;
+    }
+}

@@ -1,0 +1,121 @@
+.aside-picture {
+    width: 100%;
+    float: right;
+    margin-left: 150px;
+    margin-top: -100px;
+}
+
+.profile-picture {
+    width: 100%;
+   border-radius: 20px;
+}
+
+.summary-section {
+    margin-top: 90px;
+}
+
+.summary-title {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.about-me-description {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 12px;
+}
+
+.profile-picture-description {
+    
+    font-size: 10px;
+    font-weight: 550;
+    margin-left: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .aside-picture {
+        width: 80%;
+        
+    }
+
+    .profile-picture {
+        width: 80%;
+        
+    }
+
+    .profile-picture-description {
+        font-size: 12px;
+    }
+
+    .summary-title {
+        margin-left: -10px;
+    }
+
+    .about-me-description {
+        text-align: center;
+        margin-right: 40px;
+        font-size: 13.8px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .aside-picture {
+        width: 60%;
+        float: right;
+        margin-left: 100px;
+        margin-top: -80px;
+    }
+
+    .profile-picture {
+        width: 60%;
+        /* margin-left: 160px; */
+        margin-top: 20px;
+        margin-left: 120px;
+        
+    }
+
+    .profile-picture-description {
+        text-align: right;
+        margin-right: 250px;
+    }
+
+    .about-me-description {
+        font-size: 15px;
+        margin-top: 120px;
+        text-align: center;
+        margin-left: 120px;
+        
+    }
+}
+
+
+@media screen and (min-width: 1920px) {
+    .summary-title {
+        font-size: 50px;
+        text-align: left;
+        margin-left: 120px;
+        margin-bottom: -90px;
+    }
+
+    .aside-picture {
+        width: 40%;
+    }
+
+    .profile-picture {
+        width: 65%;
+    }
+
+    .about-me-description {
+        font-size: 20px;
+        margin-top: 150px;
+        text-align: left;
+    }
+
+    .profile-picture-description {
+        font-size: 15px;
+        margin-right: 200px;
+    }
+
+}

@@ -1,0 +1,33 @@
+.top-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #102C57;
+    color: #f8f0e5;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    transition: opacity 0.1s 
+    color 0.2s;
+}
+
+.top-button:hover {
+    opacity: 0.6;
+   
+}
+
+.top-button:visited {
+    opacity: 1;
+}
+
+@media screen and (min-width: 768px){
+    .top-button {
+        padding: 15px;
+        
+    }
+}
