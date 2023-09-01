@@ -42,7 +42,8 @@
     position: absolute;
     font-size: 1.5rem;
     top: 35%;
-    right: 13%;
+    right: 10%;
+    left: 10%;
     opacity: 0;
     filter: blur(5px);
     transform: translateY(50%);

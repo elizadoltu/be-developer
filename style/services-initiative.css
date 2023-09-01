@@ -47,6 +47,7 @@
     position: relative;
     display: flex;
     align-items: flex-start;
+   
 }
 
 .line-6 { 
@@ -69,10 +70,10 @@
 }
 
 .html-icon {
-    width: 10%;
+    width: 8%;
     position: absolute;
     top: 10%;
-    left: 80%;
+    left: 85%;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
@@ -84,9 +85,9 @@
 }
 
 .css-icon {
-    width: 10%;
+    width: 8%;
     top: 40%;
-    left: 80%;
+    left: 85%;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -99,9 +100,9 @@
 }
 
 .javascript-icon {
-    width: 10%;
+    width: 8%;
     top: 70%;
-    left: 80%;
+    left: 85%;
     position: absolute;
     display: flex;
     align-items: flex-end;
