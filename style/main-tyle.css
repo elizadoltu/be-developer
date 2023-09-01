@@ -6,4 +6,9 @@ main {
     width: 100%;
     height: 100vh;
     font-family: 'Wix Madefor Display', sans-serif;
+    overflow-x: hidden;
+}
+
+section {
+    overflow-x: hidden;
 }
