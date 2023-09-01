@@ -1,0 +1,136 @@
+@media screen and (max-width: 768px){
+
+    body {
+        overflow-x: hidden;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .text {
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .about-us {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        place-items: center;
+    }
+
+    .header {
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .introduction-section {
+        font-size: 30px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .about-us-title {
+        font-size: 35px;
+        left: 40%;
+    }
+
+    .paragraph-wrapper span{
+        font-size: 25px;
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .projects-title {
+        font-size: 35px;
+        left: 65%;
+    }
+
+    .line-5 {
+        top: 2%;
+        font-size: 20px;
+        left: 20%;
+        display: none;
+    }
+
+    .portfolio-images {
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        margin-right: 65%;
+        margin-top: 10%;
+    }
+
+    .services-title {
+        font-size: 30px;
+        left: 40%;
+    }
+
+    /* .services-initiative.paragraph-wrapper div {
+        font-size: 10px;
+        width: 300px;
+    } */
+
+    .contacts-title {
+        font-size: 35px;
+        left: 65%;
+    }
+
+    .whatsapp-logo {
+        width: 10%;
+        top: 75%;
+        left: 15%;
+    }
+
+    .linkedin-icon {
+        width: 10%;
+        top: 75%;
+        left: 45%;
+    }
+
+    .email-icon {
+        width: 10%;
+        top: 75%;
+        left: 75%;
+    }
+
+    .bedeveloper-logo {
+        width: 70%;
+    }
+
+    .html-icon {
+        display: none;
+    }
+
+    .css-icon {
+        display: none;
+    }
+
+    .javascript-icon {
+        display: none;
+    }
+
+    .footer-text {
+        font-size: 20px;
+    }
+
+    /* .line-1,
+    .line-2,
+    .line-3,
+    .line-4,
+    .line-6 {
+        font-size: 10px;
+            /* Adjust the font size for smaller screens 
+        width: 90%;
+            /* Adjust the width to fit smaller screens 
+    } */
+
+    
+}
