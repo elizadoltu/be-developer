@@ -132,6 +132,63 @@
         width: 90%;
             /* Adjust the width to fit smaller screens 
     } */
+}
 
+@media screen and (max-width: 1281px){
+    .text {
+        font-size: 3.5rem;
+    }
 
+    .paragraph-wrapper .line-1,
+    .paragraph-wrapper .line-2,
+    .paragraph-wrapper .line-3,
+    .paragraph-wrapper .line-4,
+    .paragraph-wrapper .line-6 {
+        display: none;
+    }
+
+    .display-paragraph {
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 150px;
+    }
+
+    .services-title {
+        left: 36%;
+    }
+
+    .html-icon {
+        width: 10%;
+        top: 80%;
+        left: 10%;
+    }
+
+    .css-icon {
+        width: 10%;
+        top: 80%;
+        left: 45%;
+    }
+
+    .javascript-icon {
+        top: 80%;
+        width: 10%;
+        left: 80%;
+    }
+
+    .line-7 {
+        top: 45%;
+    }
+
+    .whatsapp-logo, .linkedin-icon, .email-icon {
+        top: 68%;
+    }
+
+    .contacts-title {
+        left: 75%;
+    }
 }
